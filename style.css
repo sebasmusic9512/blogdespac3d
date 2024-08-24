@@ -1,0 +1,71 @@
+/*hoja de estilos*/
+:root{
+    --fuenteEncabezado:"Pt Sans", sans-serif;
+    --fuenteparrafos:"Open Sans" sans-serif;
+
+    --primario: #1025df;
+    --blanco: #ffffff;
+    --negro: #0000;
+}
+
+body{
+    font-family: var(--fuenteparrafos);
+    font-size:1.6rem;
+    line-height: 2;
+}
+
+.contenedor{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+h1,h2,h3,h4{
+    font-family: var(--fuenteEncabezado);
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size:4rem;
+}
+h3{
+    font: size 3.2rem;
+}
+h4{
+    font: size 2.8rem;
+}
+
+/*estilos  utilitarios para reutilizar*/
+.nomargin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+/*estilos del header*/
+.header{
+    background-image: url(../img/Banner.jpg);
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
+
